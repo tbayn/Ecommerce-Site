@@ -1,0 +1,101 @@
+/* Announcements.jsx styles*/
+#Announcement {
+  text-align: center;
+}
+
+/*App.js styles */
+#Header {
+  text-align: center;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageTabs {
+  list-style-type: none;
+  text-decoration: none;
+}
+/*Login.jsx styles */
+#login {
+  text-align: center;
+}
+.loginFormContainer {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInput {
+  border-radius: 15px;
+  margin: auto;
+  width: 35%;
+}
+
+.loginSubmit {
+  margin:auto;
+  width: 20%;
+  border-radius: 25px;
+}
+
+/*Register.jsx styles */
+#register {
+  text-align: center;
+}
+.loginFormContainer {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInput {
+  border-radius: 15px;
+  margin: auto;
+  width: 35%;
+}
+
+.loginSubmit {
+  margin:auto;
+  width: 20%;
+  border-radius: 25px;
+}
+
+/*Products.jsx styles*/
+.prodListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#prodList {
+  text-decoration: none;
+  color: black;
+}
+
+#prodList:hover {
+  text-decoration: underline;
+  color: blue;
+}
+/*Product.jsx styles*/
+.prodContainer {
+  margin-top: 3%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.prodImage {  
+  width: 5%;
+  height: 5%;
+  margin-right: 3%;
+}
+
+.prodCategory {
+  text-transform: capitalize;
+}
+
+/*Checkout.jsx styles*/
+/*Footer.jsx styles */
+/*Cart.jsx styles*/
